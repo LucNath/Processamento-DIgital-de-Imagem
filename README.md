@@ -29,23 +29,24 @@ Este repositório contém implementações educacionais de técnicas fundamentai
 - [x] Manipulação de histogramas
 
 ### 2. 🔧 Filtragem Espacial
-- [x] **Filtros de Suavização**
-  - Filtro de média (box filter)
-  - Filtro gaussiano
-  - Filtro mediana
-  - Filtro bilateral
 
-- [x] **Filtros de Aguçamento**
-  - Laplaciano
-  - Unsharp masking
-  - High-boost filtering
+#### Filtros de Suavização
+- [x] Filtro de média (box filter)
+- [x] Filtro gaussiano
+- [x] Filtro mediana
+- [x] Filtro bilateral
 
-- [x] **Detecção de Bordas**
-  - Sobel (horizontal e vertical)
-  - Prewitt
-  - Roberts
-  - Canny Edge Detector
-  - Laplacian of Gaussian (LoG)
+#### Filtros de Aguçamento
+- [x] Laplaciano
+- [x] Unsharp masking
+- [x] High-boost filtering
+
+#### Detecção de Bordas
+- [x] Sobel (horizontal e vertical)
+- [x] Prewitt
+- [x] Roberts
+- [x] Canny Edge Detector
+- [x] Laplacian of Gaussian (LoG)
 
 ### 3. 📊 Transformadas
 - [x] Transformada de Fourier (DFT/FFT)
@@ -54,42 +55,44 @@ Este repositório contém implementações educacionais de técnicas fundamentai
 - [x] Transformada Wavelet
 
 ### 4. 🎭 Realce de Imagens
-- [x] **Equalização de Histograma**
-  - Global
-  - Adaptativa (CLAHE)
-  
-- [x] **Transformações de Intensidade**
-  - Linear (contraste e brilho)
-  - Logarítmica
-  - Potência (Gamma correction)
-  - Negativo
 
-- [x] **Operações Morfológicas**
-  - Erosão
-  - Dilatação
-  - Abertura (Opening)
-  - Fechamento (Closing)
-  - Gradiente morfológico
-  - Top-hat e Black-hat
+#### Equalização de Histograma
+- [x] Global
+- [x] Adaptativa (CLAHE)
+
+#### Transformações de Intensidade
+- [x] Linear (contraste e brilho)
+- [x] Logarítmica
+- [x] Potência (Gamma correction)
+- [x] Negativo
+
+#### Operações Morfológicas
+- [x] Erosão
+- [x] Dilatação
+- [x] Abertura (Opening)
+- [x] Fechamento (Closing)
+- [x] Gradiente morfológico
+- [x] Top-hat e Black-hat
 
 ### 5. 🧩 Segmentação
-- [x] **Thresholding**
-  - Global (Otsu)
-  - Adaptativo
-  - Multi-level
-  
-- [x] **Baseada em Região**
-  - Region Growing
-  - Watershed
-  
-- [x] **Clustering**
-  - K-means
-  - Mean Shift
-  
-- [x] **Contornos**
-  - Detecção de contornos
-  - Aproximação de contornos
-  - Convex Hull
+
+#### Thresholding
+- [x] Global (Otsu)
+- [x] Adaptativo
+- [x] Multi-level
+
+#### Baseada em Região
+- [x] Region Growing
+- [x] Watershed
+
+#### Clustering
+- [x] K-means
+- [x] Mean Shift
+
+#### Contornos
+- [x] Detecção de contornos
+- [x] Aproximação de contornos
+- [x] Convex Hull
 
 ### 6. 🔍 Análise de Imagens
 - [x] Detecção de features (SIFT, SURF, ORB)
@@ -204,23 +207,6 @@ cv2.imshow('Bordas', bordas)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
-## 📊 Exemplos Visuais
-
-### Filtragem Espacial
-| Original | Filtro Gaussiano | Detecção de Bordas |
-|----------|------------------|-------------------|
-| ![Original](resultados/original.jpg) | ![Gaussian](resultados/gaussian.jpg) | ![Edges](resultados/edges.jpg) |
-
-### Equalização de Histograma
-| Original | Equalizado Global | CLAHE |
-|----------|-------------------|-------|
-| ![Original](resultados/hist_original.jpg) | ![Global](resultados/hist_global.jpg) | ![CLAHE](resultados/hist_clahe.jpg) |
-
-### Segmentação
-| Original | Threshold | Watershed | K-means |
-|----------|-----------|-----------|---------|
-| ![Orig](resultados/seg_original.jpg) | ![Thresh](resultados/seg_threshold.jpg) | ![Water](resultados/seg_watershed.jpg) | ![Kmeans](resultados/seg_kmeans.jpg) |
 
 ## 🧮 Fundamentos Matemáticos
 
@@ -363,7 +349,7 @@ Contribuições são bem-vindas! Siga estes passos:
 ### Diretrizes
 - Documente bem o código
 - Adicione exemplos de uso
-- Inclua imagens de resultado
+- Inclua imagens de resultado quando possível
 - Mantenha consistência de estilo
 
 ## 🐛 Reportar Bugs
@@ -384,7 +370,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 - GitHub: [@LucNath](https://github.com/LucNath)
 - LinkedIn: [Lucas Nathan](https://linkedin.com/in/-)
-- Email: -
 
 ## 🙏 Agradecimentos
 
